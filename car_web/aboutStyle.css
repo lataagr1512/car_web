@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.3rem;
+    font-weight: 20;
+}
+
+  
+  
+ 
+div{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    width: 75%;
+    margin: auto;
+    background: #058bcf;
+    padding: 2rem;
+    font-family: monospace;
+    box-shadow: 0.6rem 1rem 1rem #213a62;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 6rem;
+  }

@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+            /* background-color: #bb71ca; */
+            /* background: linear-gradient(to right bottom,#560d91 ,#ac9cd3,#bb91c9,#cea6db,white); */
+            font-family: Verdana;
+            text-align: center;
+            background-color: #f6dffa;
+            font-family: 'Poppins',sans-serif;
+            background-image: linear-gradient(to bottom,rgb(0, 0, 0),#00a9ff);
+            background-repeat: no-repeat;
+            /* overflow-y: hidden; */
+}
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: -4.2rem;
+    font-family: system-ui;
+    letter-spacing: 0.3rem;
+    color: #fff;
+}
+ 
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-top: 5rem;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+ 
+/* Styling Button */
+button {
+    
+    background: linear-gradient(to left bottom,rgb(0, 0, 0),#00a9ff);
+border: 1px solid #777;
+border-radius: 0.3rem;
+font-family: inherit;
+font-size: 1rem;
+display: block;
+width: 32%;
+margin-top: 50px;
+margin-bottom: 20px;
+margin: auto;
+color: aliceblue;
+padding-top: 0.6rem;
+padding-bottom: 0.6rem;
+letter-spacing: 0.2rem;
+
+} 
+button:hover{
+    letter-spacing: 0.3rem;
+    background: linear-gradient(to right,rgb(0, 0, 0) 0%,#00a9ff 100%);
+    background-repeat: no-repeat;
+}
+/* .btn-submit{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7b38d8;
+    padding: 10px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+     /* border: 4px double #cccccc;  */
+    /* border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer; /* add this line */
+    /* margin: 5px; /* add this line */
+/* }
+.btn-submit:hover{
+    background-color: rgb(151, 95, 224);
+}  */ 
